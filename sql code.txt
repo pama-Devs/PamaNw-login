@@ -1,0 +1,30 @@
+CREATE DATABASE db_PamaNw;
+USE db_PamaNw;
+
+//-----------------------------------------------------
+
+CREATE TABLE tblUserDetails 
+(
+name 		VARCHAR(25) 	NOT NULL,
+email 		VARCHAR(50) 	NOT NULL,
+password 	VARCHAR(25) 	NOT NULL,
+usertype 	VARCHAR(10) 	NOT NULL,
+securityans 	VARCHAR(25) 	NOT NULL,
+PRIMARY KEY 	(email)
+);
+
+// Second Database :
+
+CREATE DATABASE dbNodeWork;
+Use dbNodeWork;
+//-----------------------------------------------------
+
+CREATE TABLE tblUserDetails 
+(
+name 		VARCHAR(25) 	NOT NULL,
+email 		VARCHAR(50) 	NOT NULL,
+password 	VARCHAR(25) 	NOT NULL,
+usertype 	VARCHAR(10) 	NOT NULL,
+securityans 	VARCHAR(25) 	NOT NULL,
+PRIMARY KEY 	(email)
+);
